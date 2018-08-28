@@ -1,0 +1,17 @@
+zendepo
+=======
+
+create zenodo deposit drafts based on gbif datasets
+
+this script was written to create quick and simple deposit drafts of all
+norwegian gbif datasets, so it does not do a lot of error handling and 
+excepts you to look over the drafts before publishing them...!
+
+usage
+=======
+
+add your zenodo api access token to config.py and find the gbif uuid of the
+dataset you want to add to zenodo
+
+$ zendepo.py <gbif uuid>
+
